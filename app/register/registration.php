@@ -9,23 +9,25 @@ if($_SERVER['REQUEST_METHOD'] != 'POST') {
 
 $voornaam = $_POST['vnaam'];
 $achternaam = $_POST['anaam'];
-$email = $_POST['email'];
+$semail = $_POST['semail'];
+$pemail = $_POST['pemail'];
 $geboortedatum = $_POST['datum'];
 $telnummer = $_POST['mobiel'];
 $telnummerouders = $_POST['mobieloud'];
 
-$email = $email . '@alfa-arte.nl';
+$semail = $semail . '@alfa-arte.nl';
 try{
 $db_query = $conn->prepare(
-    "INSERT INTO leerling(voornaam, achternaam, schoolemail, geboortedatum, telefoon, telefoonouder)
-     VALUES(:voornaam, :achternaam, :mailadres, :datum, :mobiel, :mobieloud)"
+    "INSERT INTO leerling(voornaam, achternaam, schoolemail, priveemail, geboortedatum, telefoon, telefoonouder)
+     VALUES(:voornaam, :achternaam, :mailadres, :priveemail, :datum, :mobiel, :mobieloud)"
 );
 
 
 $db_query->execute([
         ':voornaam' => $voornaam,
         ':achternaam' => $achternaam,
-        ':mailadres' => $email,
+        ':mailadres' => $semail,
+        ':priveemail' => $pemail,
         ':datum' => $geboortedatum,
         ':mobiel' => $telnummer,
         ':mobieloud' => $telnummerouders
@@ -37,4 +39,4 @@ $db_query->execute([
     die();
 }
 
-//header('Location: ../../registreren.php');
+header('Location: ../../registreren.php');

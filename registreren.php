@@ -11,8 +11,11 @@ session_start();
             <label for="account"><b>hii</b></label><br>
 			<input class="registerf" type="text" placeholder="Achternaam" name="anaam" required><br>
 
-			<label for="account"><b>Email</b></label><br>
-            <input class="registerf" type="text" placeholder="Email" name="email" required><br>
+			<label for="account"><b>School email naam</b></label><br>
+            <input class="registerf" type="text" placeholder="Email" name="semail" required><br>
+
+            <label for="account"><b>Prive Email</b></label><br>
+            <input class="registerf" type="text" placeholder="Email" name="pemail" required><br>
 
             <label for="account">Geboortedatum: </label> <br>
             <input required type="date" name="datum" id="datum"> <br>
