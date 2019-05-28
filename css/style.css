@@ -79,3 +79,16 @@ footer {
     height: 250px;
     margin: 0 auto;
 }
+
+.vakCell{
+    background-color: white;
+}
+
+th{
+    background-color: white;
+    border: solid black 1px;
+}
+
+.cijferTabel{
+    width: 75%;
+}
