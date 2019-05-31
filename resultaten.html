@@ -15,7 +15,7 @@
 	<title>Studenteninformatiesysteem</title>
 </head>
 
-<body>
+<body class="w-100 h-100">
 
 <!-- BEGIN MENU -->
 <nav class="navbar navbar-default">
@@ -50,24 +50,38 @@
 <!-- BEGIN RESULTATEN -->
 <div class="container">
 	<div class="page-header">
-		<h1 class="text-white">Adminpanel</h1>
+		<h1 class="text-white">Resultaten</h1>
 	</div>
 </div>
-<table class="table table-bordered cijferTabel"> <!--TODO: met hover als je ziet-->
+<table class="table table-bordered cijferTabel w-25"> <!--TODO: met hover als je ziet-->
 	<thead>
 	<tr>
 		<th class="vakCell col-xs-1" scope="col">Vak</th>
-		<th class="vakCell cijferCell col-xs-1" scope="col">Cijfers</th>
+		<script>
+			for(var i = 0; i < 16; i++){
+				document.write('<th class="col-xs-1 shutCell">Cijfer</th>')
+			}
+		</script>
 	</tr>
 	</thead>
-	<tr>
-		<th class="vakCell" scope="col">Nederlands</th>
-		<th class="cijferCell" scope="col">1<div class="cijferInfo">Bro</div></th>
-		<th scope="col">1</th>
-		<th scope="col">1</th>
-		<th scope="col">1</th>
-		<th scope="col">1</th>
-	</tr>
+	<tbody>
+		<tr>
+			<th class="vakCell d-xl-none">Nederlands</th>
+			<th class="cijferCell">1<span class="cijferInfo">&nbspBro</span></th>
+			<th class="cijferCell">1<span class="cijferInfo">&nbspBro</span></th>
+			<th class="cijferCell">1<span class="cijferInfo">&nbspBro</span></th>
+			<th class="cijferCell">1<span class="cijferInfo">&nbspBro</span></th>
+			<th class="cijferCell">1<span class="cijferInfo">&nbspBro</span></th>
+		</tr>
+		<tr>
+			<th class="vakCell" scope="col">Nederlands</th>
+			<th class="cijferCell" scope="col">1<div class="cijferInfo">Bro</div></th>
+			<th scope="col" class="w-25">1</th>
+			<th scope="col">1</th>
+			<th scope="col">1</th>
+			<th scope="col">1</th>
+		</tr>
+	</tbody>
 </table>
 <!-- EINDE RESULTATEN -->
 <!-- BEGIN FOOTER -->

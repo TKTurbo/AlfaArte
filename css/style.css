@@ -92,3 +92,24 @@ th{
 .cijferTabel{
     width: 75%;
 }
+
+table{
+    table-layout: fixed;
+}
+
+.cijferInfo{
+    display: none;
+}
+
+.cijferCell:hover > span{
+    display: inline-block;
+}
+
+.cijferCell{
+    width: 100px;
+}
+
+.shutCell{
+    border-style: none;
+    opacity: 0;
+}
