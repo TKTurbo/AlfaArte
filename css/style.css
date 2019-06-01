@@ -93,7 +93,32 @@ th{
     width: 75%;
 }
 
-.contentContainer{
+.contentContainer {
     width: 95%;
     margin: 0 auto;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.cijferInfo{
+    display: none;
+}
+
+.cijferCell:hover > span{
+    display: inline-block;
+}
+
+.cijferCell{
+    width: 100px;
+}
+
+.shutCell{
+    border-style: none;
+    opacity: 0;
+}
+
+.smallCell{
+    width: 65px;
 }

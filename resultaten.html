@@ -26,7 +26,6 @@
 				<span class="fa fa-bars"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">Alfa Arte
-				<!--                <img src="https://lh5.googleusercontent.com/ZjkBVlmWqtX3FC_yLNCdLijQ3q0yPHQgXS0lT5-WKNkJMs9ERsf2y3pf1Z9bcHZyMGwEJxf7FGVO2khcD436Dh0UQKfNiO3vZp0roSqEFiCnFG4NdBFt02fWRso4w5sQD_RhkEAG" width="30" height="30" alt="">-->
 			</a>
 		</div>
 		<!-- hier menu links -->
@@ -58,15 +57,25 @@
 		<thead>
 		<tr>
 			<th class="vakCell col-xs-1" scope="col">Vak</th>
-			<th class="vakCell cijferCell col-xs-1" scope="col">Cijfers</th>
-			<th class="col-xs-1"></th>
+			<th class="vakCell cijferCell smallCell" scope="col">Cijfers</th>
+			<script>
+				for(var i = 0; i < 16; i++){
+				    document.write('<th class="smallCell"></th>');
+				}
+			</script>
 		</tr>
 		</thead>
 		<tr>
 			<th class="vakCell" scope="col">Nederlands</th>
-			<th class="cijferCell" scope="col">1<span class="cijferInfo">Bro</span></th>
+			<th class="cijferCell" scope="col">1 <span class="cijferInfo">Bro</span></th>
 			<th scope="col">1</th>
 			<th scope="col">1</th>
+			<th scope="col">1</th>
+			<th scope="col">1</th>
+		</tr>
+		<tr>
+			<th class="vakCell" scope="col">Linux</th>
+			<th class="cijferCell" scope="col">1 <span class="cijferInfo">Bro</span></th>
 			<th scope="col">1</th>
 			<th scope="col">1</th>
 		</tr>
@@ -78,6 +87,5 @@
 	<div class="footer-copyright text-center py-3">©<?= date("Y") ?> Copyright |
 		<a class="mail_alfa" href="mailto:#">Alfa Arte</a>
 	</div>
-
 </footer>
 <!--EINDE FOOTER-->
