@@ -126,7 +126,17 @@ table{
 .werkLijstDing{
     background-color: white;
     border-radius: 10px;
-    height: 100px;
-    width: 500px;
-    margin-left: 12.5%;
+    height: 75px;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+.containerWerklijst{
+    width: 100px;
+}
+
+.containerWerklijst{
+    text-align: center;
 }
