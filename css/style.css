@@ -122,3 +122,11 @@ table{
 .smallCell{
     width: 65px;
 }
+
+.werkLijstDing{
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    margin-left: 12.5%;
+}
