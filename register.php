@@ -23,5 +23,4 @@ include_once('app/templates/bovenstuk.php');
 			</div>
 		</div>
 <?php
-include_once('app/templates/bovenstuk.php');
-?>
+include_once('app/templates/onderstuk.php');
