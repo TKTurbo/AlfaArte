@@ -1,12 +1,13 @@
 <?php
 session_start();
 $dbHost = 'localhost';
-$dbName = 'jojoforum';
-$dbUser = 'tkturbo';
-$dbPassword = 'Cu636_yl';
+$dbName = 'thomas_alfaarte';
+$dbUser = 'root';
+$dbPassword = '';
 $db_connection = null;
 $db_query = null;
 $dsn = "mysql:host=$dbHost;dbname=$dbName";
+
 function testFunction(){
 	echo 'werkt!';
 }
