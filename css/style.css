@@ -192,3 +192,7 @@ table{
     width: 500px;
     margin-left: 12.5%;
 }
+
+td{
+    background-color: white;
+}
