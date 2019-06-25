@@ -1,5 +1,6 @@
 <?php
 include_once('app/templates/bovenstuk.php');
+include_once('app/functionality/results.php');
 ?>
 <!-- BEGIN RESULTATEN -->
 <div class="container">
@@ -21,18 +22,7 @@ include_once('app/templates/bovenstuk.php');
 		</tr>
 		</thead>
 		<tr>
-			<th class="vakCell" scope="col">Nederlands</th>
-			<th class="cijferCell" scope="col">1 <span class="cijferInfo">Bro</span></th>
-			<th scope="col">1</th>
-			<th scope="col">1</th>
-			<th scope="col">1</th>
-			<th scope="col">1</th>
-		</tr>
-		<tr>
-			<th class="vakCell" scope="col">Linux</th>
-			<th class="cijferCell" scope="col">1 <span class="cijferInfo">Bro</span></th>
-			<th scope="col">1</th>
-			<th scope="col">1</th>
+			<?php getResults(1); ?>
 		</tr>
 	</table>
 </div>
