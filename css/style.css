@@ -1,0 +1,194 @@
+/* BEGIN BODY */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/bg.jpg') !important;
+    /* background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg.jpg") !important;  */
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+/* EINDE BODY */
+
+/* BEGIN NAVBAR */
+.navbar {
+    background-color: #003581 !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+     color: #ffffff !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #003581 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: none !important;
+}
+/* EINDE NAVBAR */
+
+.text-white {
+    color: #ffffff !important;
+}
+
+/* BEGIN FOOTER */
+.mail_alfa {
+    color: #ffffff !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #003581 !important;
+    color: #ffffff !important;
+    text-align: center;
+}
+/* EINDE FOOTER */
+/* BEGIN BODY */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/bg.jpg') !important;
+    /* background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg.jpg") !important;  */
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+/* EINDE BODY */
+
+/* BEGIN NAVBAR */
+.navbar {
+    background-color: #003581 !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #003581 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: none !important;
+}
+/* EINDE NAVBAR */
+
+.text-white {
+    color: #ffffff !important;
+}
+
+/* BEGIN FOOTER */
+.mail_alfa {
+    color: #ffffff !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #003581 !important;
+    color: #ffffff !important;
+    text-align: center;
+}
+/* EINDE FOOTER */
+
+
+.formy{
+    margin-top: 11px;
+}
+
+.adminItem{
+    vertical-align: center;
+    width: 500px;
+}
+
+.wholePage{
+    vertical-align: middle;
+    height: 100%;
+}
+
+.adminPageContainer{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.vakCell{
+    background-color: white;
+}
+
+th{
+    background-color: white;
+    border: solid black 1px;
+}
+
+.cijferTabel{
+    width: 75%;
+}
+
+.contentContainer {
+    width: 95%;
+    margin: 0 auto;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.cijferInfo{
+    display: none;
+    font-size: 8px;
+}
+
+.cijferCell:hover > span{
+    display: inline-block;
+}
+
+.cijferCell{
+    width: 100px;
+    background-color: white;
+}
+
+.shutCell{
+    border-style: none;
+    opacity: 0;
+}
+
+.smallCell{
+    width: 65px;
+}
+
+.werkLijstDing{
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    margin-left: 12.5%;
+}
