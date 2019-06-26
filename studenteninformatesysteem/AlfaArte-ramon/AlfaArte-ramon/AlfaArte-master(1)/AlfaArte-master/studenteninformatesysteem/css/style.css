@@ -32,11 +32,10 @@ body {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #003581 !important;
-    border-radius: 0px !important;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #003581 !important;
+    border: none !important;
 }
 
 .fa, .fas {
@@ -73,47 +72,9 @@ body {
 }
 
 .foto {
-    margin-top: 28px !important;
+    margin-top: 28px;
 }
 /* EINDE OPMAAK */
-
-/* BEGIN OPMAAK CARD */
-
-.card {
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255); 
-    padding: 20px 0px; 
-}
-
-.margin-bottom-feedback {
-    margin-bottom: 10px;
-}
-
-.margin-bottom-bericht {
-    margin-bottom: 10px;
-}
-
-.margin-bottom-goodlook {
-    margin-bottom: 100px;
-}
-
-.float-left {
-    float: left !important;
-}
-
-.float-right {
-    float: right !important;
-}
-
-.margin-top-bericht {
-    margin-top: 10px;
-}
-
-input.form-control {
-    z-index: 0 !important;
-}
-
-/* EINDE OPMAAK CARD */
 
 /* BEGIN FOOTER */
 .mail_alfa {

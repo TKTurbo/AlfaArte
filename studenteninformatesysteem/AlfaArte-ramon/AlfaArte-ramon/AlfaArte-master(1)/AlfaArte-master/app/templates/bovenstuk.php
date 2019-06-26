@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/fontawesome.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,11 +25,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
                 <span class="fa fa-bars"></span>
             </button>
-
-            
-
             <a href="index.php" class="navbar-brand">Alfa Arte
-
+                <!--                <img src="https://lh5.googleusercontent.com/ZjkBVlmWqtX3FC_yLNCdLijQ3q0yPHQgXS0lT5-WKNkJMs9ERsf2y3pf1Z9bcHZyMGwEJxf7FGVO2khcD436Dh0UQKfNiO3vZp0roSqEFiCnFG4NdBFt02fWRso4w5sQD_RhkEAG" width="30" height="30" alt="">-->
             </a>
         </div>
         <!-- hier menu links -->

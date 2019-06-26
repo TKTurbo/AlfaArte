@@ -27,11 +27,8 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
                 <span class="fa fa-bars"></span>
             </button>
-
-            
-
             <a href="index.php" class="navbar-brand">Alfa Arte
-
+                <!--                <img src="https://lh5.googleusercontent.com/ZjkBVlmWqtX3FC_yLNCdLijQ3q0yPHQgXS0lT5-WKNkJMs9ERsf2y3pf1Z9bcHZyMGwEJxf7FGVO2khcD436Dh0UQKfNiO3vZp0roSqEFiCnFG4NdBFt02fWRso4w5sQD_RhkEAG" width="30" height="30" alt="">-->
             </a>
         </div>
         <!-- hier menu links -->
